@@ -15,7 +15,7 @@ sure you can create a dummy profile for simply running ``ls``.
 
 1. Make sure your environment is correct::
 
-     c++ -v 2>&1 | grep version  # should say 'gcc version 4.8.2 (GCC)'
+     c++ -v 2>&1 | grep version  # should say 'gcc version 4.9.0 (GCC)'
      igprof -h                   # should print simple help message
 
 2. Create your very first igprof report on ``ls``::
@@ -24,7 +24,7 @@ sure you can create a dummy profile for simply running ``ls``.
      igprof-analyse --sqlite -d -v -g ls-test.gz |
        sqlite3 ~/public_html/cgi-bin/data/ls-test.sql3
 
-3. View the report at http://131.154.193.30/~<student>/cgi-bin/igprof-navigator.py/ls-test/
+3. View the report at http://131.154.193.33/~<student>/cgi-bin/igprof-navigator.py/ls-test/
 
 Basic performance profile
 -------------------------
@@ -34,12 +34,12 @@ using igprof statistical performance profiler.
 
 1. Make sure your environment is correct::
 
-     c++ -v 2>&1 | grep version  # should say 'gcc version 4.8.2 (GCC)'
+     c++ -v 2>&1 | grep version  # should say 'gcc version 4.9.0 (GCC)'
      igprof -h                   # should print simple help message
 
 2. Run the test program under igprof performance profiler::
 
-     cd esc/exercises/basic
+     cd esc14/exercises/basic
      igprof -pp -z -o cputicks.gz ./cputicks 100000
 
 3. Generate a simple text profile output of run time::
@@ -63,7 +63,7 @@ using igprof statistical performance profiler.
      <... and so on ...>
 
 4. Generate the same profile in web-viewable database, view the profile at
-   http://131.154.193.30/~<student>/cgi-bin/igprof-navigator.py/cputicks/ ::
+   http://131.154.193.33/~<student>/cgi-bin/igprof-navigator.py/cputicks/ ::
 
      rm -f ~/public_html/cgi-bin/data/cputicks.sql3
      igprof-analyse --sqlite -d -v -g cputicks.gz |

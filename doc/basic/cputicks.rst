@@ -10,7 +10,7 @@ evaluations involving small regions of code.
 
 1. Build and run `cputicks.cc <../exercises/basic/cputicks.cc>`_::
 
-     cd esc/exercises/basic
+     cd esc14/exercises/basic
      c++ -O -o cputicks cputicks.cc
      ./cputicks
 

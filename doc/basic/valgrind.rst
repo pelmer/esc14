@@ -9,12 +9,12 @@ the basic mechanics of using valgrind; later exercises will go into more detail.
 
 1. Set up your environment::
 
-     c++ -v 2>&1 | grep version  # should say 'gcc version 4.8.2 (GCC)'
-     valgrind --version          # should say 'valgrind-3.8.1'
+     c++ -v 2>&1 | grep version  # should say 'gcc version 4.9.0 (GCC)'
+     valgrind --version          # should say 'valgrind-3.9.0'
 
 2. Build `memerror.cc <../exercises/basic/memerror.cc>`_::
 
-     cd esc/exercises/basic
+     cd esc14/exercises/basic
      c++ -g -o memerror memerror.cc
 
 3. Run the test program under valgrind::
