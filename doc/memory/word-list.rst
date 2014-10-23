@@ -11,13 +11,13 @@ correct and optimise the program.
 
 1. Make sure your environment is correct::
 
-     c++ -v 2>&1 | grep version  # should say 'gcc version 4.8.2 (GCC)'
-     valgrind --version          # should say 'valgrind-3.8.1'
+     c++ -v 2>&1 | grep version  # should say 'gcc version 4.9.0 (GCC)'
+     valgrind --version          # should say 'valgrind-3.9.0'
      igprof -h                   # should print simple help message
 
 2. Go to the exercise directory::
 
-     cd esc/exercises/memory
+     cd esc14/exercises/memory
 
 3. Make yourself a test dataset of 16 random 30'000-word files::
 

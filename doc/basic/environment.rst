@@ -35,10 +35,10 @@ with SSH and would rather you use the editor on your local system, the more
 advanced steps below give an alternate extended configuration which makes
 working somewhat nicer and easier.
 
-0. Make sure you are using the INFN-Web WiFi network and not the CEUB
-   WiFi network. Only the INFN-Web one will work for the following. If
-   you do not have a user/pass to connecto the the INFN-Web network,
-   ask one of the organizers.
+0. Make sure you are using the INFN-Captive WiFi or eduroam networks and not the CEUB
+   WiFi network. Only the INFN-Captive or eduroam networks will work for the following. If
+   you do not have a user/pass to connect to the the INFN-Captive network 
+   (and cannot connect to the eduroam network), ask one of the organizers.
 
 1. First SSH into the gateway/NSF/Apache server (esc-server.cnaf.infn.it):
      ssh <student>@131.154.193.33

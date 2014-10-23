@@ -10,12 +10,12 @@ Steps
 
 1. Make sure your environment is correct::
 
-     c++ -v 2>&1 | grep version  # should say 'gcc version 4.8.2 (GCC)'
+     c++ -v 2>&1 | grep version  # should say 'gcc version 4.9.0 (GCC)'
      igprof -h                   # should print simple help message
 
 2. Go to the exercise directory::
 
-     cd esc/exercises/memory
+     cd esc14/exercises/memory
 
 3. Examine the little test programs in this directory.  You use them for
    dedicated little studies on container memory allocation behaviour:
@@ -53,6 +53,6 @@ Steps
 
 7. This results in profiles such as::
 
-   http://131.154.193.30/~<student>/cgi-bin/igprof-navigator.py/vvvi-copy.gz_tot/o_tot/
+   http://131.154.193.33/~<student>/cgi-bin/igprof-navigator.py/vvvi-copy.gz_tot/o_tot/
 
 
