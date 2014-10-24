@@ -53,6 +53,6 @@ Steps
 
 7. This results in profiles such as::
 
-   http://131.154.193.33/~<student>/cgi-bin/igprof-navigator.py/vvvi-copy.gz_tot/o_tot/
+   http://131.154.193.33/~<student>/cgi-bin/igprof-navigator.py/vvvi-copy.gz_tot/
 
 
